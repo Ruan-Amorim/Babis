@@ -1,0 +1,52 @@
+
+/* ~~~~~~~~~~~~~~~~~~Pocket~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 320px) and (max-width: 370px){
+    .slideshow-container{
+        width: 135px;
+        margin: 10px 5px 10px 0px;
+    }
+    .album{width: 100px; height: 100px;}
+    .galeria{width: 100px;}
+}
+/* ~~~~~~~~~~~~~~~Pocket(375px)~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 371px) and (max-width: 400px){
+    .slideshow-container{
+        width: 150px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .album{width: 120px;height: 120px;}
+    .galeria{width: 115px;}
+}
+/* ~~~~~~~~~~~~~~~~~~Tablet~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 745px) and (max-width: 1023px){
+    .slideshow-container{
+        width: 240px;
+        margin: 10px 20px 10px 0px;
+    }
+    .album{width: 160px;height: 160px;}
+    .galeria{width: 130px;}
+    section{
+       max-height: 800px;
+    }
+    
+}
+/* ~~~~~~~~~~~~~~~~~~~~PC~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 1024px){
+    .slideshow-container{
+        width: 260px;
+        margin: 10px 150px 10px 0px;
+    }
+    .album{width: 165px;height: 165px;}
+    .galeria{width: 150px;}
+    #web1 p, #web1 .babis, #web1 .imgQd{
+        margin-left: 150px;
+    }
+    #container-img{justify-content: center;}
+    
+}
